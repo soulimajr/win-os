@@ -1,0 +1,32 @@
+<svg width="600" height="600" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="winGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFD54F"/>
+      <stop offset="45%" stop-color="#FF7A00"/>
+      <stop offset="100%" stop-color="#B22222"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Fundo -->
+  <rect width="600" height="600" fill="#0A0A0A"/>
+
+  <!-- Monograma W geometrico, feito de dois V angulares sobrepostos -->
+  <g filter="url(#glow)">
+    <polygon points="90,150 170,150 230,340 290,150 310,150 370,340 430,150 510,150 370,450 290,450 250,320 210,450 130,450"
+             fill="url(#winGrad)"/>
+  </g>
+
+  <!-- Linha fina separando simbolo do wordmark -->
+  <rect x="150" y="478" width="300" height="3" fill="url(#winGrad)"/>
+
+  <!-- Wordmark -->
+  <text x="300" y="525" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="900" font-size="46" letter-spacing="4" fill="#FFFFFF">WIN-OS</text>
+  <text x="300" y="552" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="15" letter-spacing="6" fill="#C9C9C9">JUNTOS VENCEREMOS</text>
+</svg>
