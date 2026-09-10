@@ -5,7 +5,7 @@
 ```
 CEO (Lima Junior)
 │
-└── SQUAD COORDENADOR  [coordenador/papel.md]
+└── NEXUS — SQUAD COORDENADOR  [coordenador/papel.md]
     │  (direciona o pedido do CEO pro Gerente certo quando o setor não é indicado)
     │
     ├── GERENTE MARKETING  → skill: marketing-gerente

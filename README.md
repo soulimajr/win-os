@@ -10,7 +10,7 @@ Cada skill é tratada como um **manual de procedimento** a ser seguido à risca,
 
 ```
 CEO (você)
-└── Squad Coordenador          [coordenador/papel.md]
+└── Nexus — Squad Coordenador  [coordenador/papel.md]
     ├── Gerente Marketing      → skill: marketing-gerente
     ├── Gerente Comercial      → skill: comercial-gerente
     ├── Gerente Financeiro     → skill: financeiro-gerente
@@ -34,6 +34,8 @@ Cada Gerente comanda **funcionários** (skills) do próprio setor — algumas s�
 ```
 
 ## Como usar
+
+> Nunca usou GitHub ou não sabe por onde começar? Siga o [passo a passo de instalação](INSTALACAO.md) primeiro.
 
 1. Clone este repositório (ou baixe como base pro seu próprio negócio).
 2. Preencha `/memoria/negocio.md`, `/memoria/tom-de-voz.md` e `/identidade/visual.md` com as informações do seu negócio e nicho.
