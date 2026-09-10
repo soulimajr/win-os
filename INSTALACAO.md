@@ -43,9 +43,24 @@ Tem dois jeitos. Escolha o que for mais fácil pra você:
 1. Se ainda não tiver, instale a extensão **Claude Code** no VS Code (ou o Claude Code no terminal — veja [claude.com/claude-code](https://claude.com/claude-code)).
 2. Com a pasta do projeto aberta, abra o Claude Code dentro dela.
 3. Peça pra ele ler o `coordenador/papel.md` (o Squad Coordenador, "Nexus") — a partir daí ele já entende toda a estrutura.
-4. Siga o passo a passo de configuração em [`README.md` → "Como usar"](README.md#como-usar): preencher `memoria/negocio.md`, `tom-de-voz.md`, `identidade/visual.md` e o `contexto.md` de cada setor com as informações do seu próprio negócio.
 
-> **Quer usar outra IA em vez do Claude Code?** A estrutura é só arquivos de texto (`.md`) e skills em `.claude/skills/` — dá pra abrir a mesma pasta em qualquer outra ferramenta de IA que leia arquivos do projeto. O passo a passo de preenchimento (item 4 acima) é o mesmo, só muda a ferramenta.
+## Passo 5 — Fazer a entrevista do seu negócio
+
+Este repositório vem **zerado de propósito** — sem dado nenhum de negócio real, só templates em branco. Isso é o ponto de partida pra você montar a sua própria empresa em cima da estrutura.
+
+1. Pra cada arquivo `.example.md` abaixo, copie ele removendo o `.example` do nome (ex: `memoria/negocio.example.md` → `memoria/negocio.md`):
+   - `memoria/negocio.example.md`
+   - `memoria/tom-de-voz.example.md`
+   - `memoria/foco-da-semana.example.md`
+   - `identidade/visual.example.md`
+   - `marketing/contexto.example.md`
+   - `comercial/contexto.example.md`
+   - `financeiro/contexto.example.md`
+   - `administracao/contexto.example.md`
+2. Peça pro Claude Code (ou Nexus, o Squad Coordenador) fazer a entrevista com você e preencher esses arquivos copiados com as respostas do seu negócio — ou preencha você mesmo direto, se preferir.
+3. Esses arquivos com seus dados reais ficam só no seu computador (já estão no `.gitignore`) — não vão pro GitHub, mesmo que você faça push depois.
+
+> **Quer usar outra IA em vez do Claude Code?** A estrutura é só arquivos de texto (`.md`) e skills em `.claude/skills/` — dá pra abrir a mesma pasta em qualquer outra ferramenta de IA que leia arquivos do projeto. O passo a passo de preenchimento (Passo 5 acima) é o mesmo, só muda a ferramenta.
 
 ---
 

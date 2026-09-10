@@ -3,3 +3,14 @@ Thumbs.db
 *.tmp
 *.log
 node_modules/
+
+# Dados reais da empresa que roda esta instância (fica só local).
+# Quem baixa o template preenche a partir dos .example.md correspondentes.
+/memoria/negocio.md
+/memoria/tom-de-voz.md
+/memoria/foco-da-semana.md
+/identidade/visual.md
+/marketing/contexto.md
+/comercial/contexto.md
+/financeiro/contexto.md
+/administracao/contexto.md
