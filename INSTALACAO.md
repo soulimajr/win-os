@@ -60,6 +60,8 @@ Este repositório vem **zerado de propósito** — sem dado nenhum de negócio r
 2. Peça pro Claude Code (ou Nexus, o Squad Coordenador) fazer a entrevista com você e preencher esses arquivos copiados com as respostas do seu negócio — ou preencha você mesmo direto, se preferir.
 3. Esses arquivos com seus dados reais ficam só no seu computador (já estão no `.gitignore`) — não vão pro GitHub, mesmo que você faça push depois.
 
+> **Dica:** essa entrevista fica bem mais natural se você **falar em vez de digitar** — usa o ditado por voz do seu celular/computador (com fone de ouvido, se puder) e vai respondendo o Nexus como numa conversa. Ele recebe como texto normalmente, então funciona sem configurar nada extra.
+
 > **Quer usar outra IA em vez do Claude Code?** A estrutura é só arquivos de texto (`.md`) e skills em `.claude/skills/` — dá pra abrir a mesma pasta em qualquer outra ferramenta de IA que leia arquivos do projeto. O passo a passo de preenchimento (Passo 5 acima) é o mesmo, só muda a ferramenta.
 
 ---
