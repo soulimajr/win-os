@@ -3,7 +3,7 @@
 > Consolidado em 2026-09-05. Reflete a estrutura real de skills já construída. Atualizar sempre que uma skill nova for criada ou um setor mudar.
 
 ```
-CEO (Lima Junior)
+CEO (dono do negócio — ver /memoria/negocio.md)
 │
 └── NEXUS — SQUAD COORDENADOR  [coordenador/papel.md]
     │  (direciona o pedido do CEO pro Gerente certo quando o setor não é indicado)
