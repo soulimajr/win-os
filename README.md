@@ -1,4 +1,4 @@
-# Creative IOE — Estrutura Organizacional com Claude Code
+# WIN-OS — Estrutura Organizacional com Claude Code
 
 Uma estrutura de pastas e skills pra usar o [Claude Code](https://claude.com/claude-code) como uma equipe de agência/empresa: **CEO → Squad Coordenador → Gerentes de setor → Funcionários (skills)**.
 
