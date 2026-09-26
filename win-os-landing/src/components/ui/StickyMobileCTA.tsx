@@ -25,7 +25,7 @@ export default function StickyMobileCTA() {
   return (
     <div className="fixed bottom-0 left-0 right-0 z-50 border-t border-border/60 bg-background/80 p-4 backdrop-blur-lg md:hidden">
       <Button 
-        href="https://www.asaas.com/c/r9h97zyqehrnk5s0" 
+        href="https://pay.kiwify.com.br/lYkLOmo" 
         target="_blank"
         rel="noopener noreferrer"
         className="w-full"

@@ -56,7 +56,7 @@ export default function Oferta() {
 
           <div className="mt-8">
             <Button
-              href="https://www.asaas.com/c/r9h97zyqehrnk5s0"
+              href="https://pay.kiwify.com.br/lYkLOmo"
               target="_blank"
               rel="noopener noreferrer"
               className="w-full"
