@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1350" width="1080" height="1350">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0c0e" />
+      <stop offset="50%" stop-color="#121316" />
+      <stop offset="100%" stop-color="#070809" />
+    </linearGradient>
+
+    <!-- Metallic Gold Gradient -->
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e8d596" />
+      <stop offset="35%" stop-color="#c9a24b" />
+      <stop offset="70%" stop-color="#f3e5ab" />
+      <stop offset="100%" stop-color="#8a6e33" />
+    </linearGradient>
+
+    <!-- Subtle Gold Glow -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="35" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    .mono { font-family: 'SF Mono', Consolas, 'Roboto Mono', monospace; }
+    .display { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 800; }
+    .serif { font-family: 'Cinzel', 'Playfair Display', Georgia, serif; }
+    .body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 400; }
+  </style>
+
+  <!-- Background Base -->
+  <rect width="1080" height="1350" fill="url(#bgGrad)" />
+
+  <!-- Ambient Golden Halo -->
+  <circle cx="540" cy="460" r="320" fill="#c9a24b" opacity="0.08" filter="url(#glow)" />
+
+  <!-- Geometric Decorative Borders -->
+  <rect x="40" y="40" width="1000" height="1270" rx="24" fill="none" stroke="#232427" stroke-width="1.5" />
+  <rect x="52" y="52" width="976" height="1246" rx="20" fill="none" stroke="#c9a24b" stroke-width="1" opacity="0.25" />
+
+  <!-- Corner Brackets -->
+  <path d="M40 90 L40 40 L90 40" fill="none" stroke="url(#goldGrad)" stroke-width="3" />
+  <path d="M1040 90 L1040 40 L990 40" fill="none" stroke="url(#goldGrad)" stroke-width="3" />
+  <path d="M40 1260 L40 1310 L90 1310" fill="none" stroke="url(#goldGrad)" stroke-width="3" />
+  <path d="M1040 1260 L1040 1310 L990 1310" fill="none" stroke="url(#goldGrad)" stroke-width="3" />
+
+  <!-- System Header Pill -->
+  <g transform="translate(540, 110)">
+    <rect x="-110" y="-20" width="220" height="40" rx="20" fill="#17181b" stroke="#232427" stroke-width="1.5" />
+    <text x="0" y="6" text-anchor="middle" fill="#c9a24b" class="mono" font-size="14" letter-spacing="3">/ EQUIPE.SYS</text>
+  </g>
+
+  <!-- Central Crest / Shield -->
+  <g transform="translate(540, 360)">
+    <!-- Shield Shadow -->
+    <path d="M0 -110 L90 -60 L90 40 C90 110 0 160 0 160 C0 160 -90 110 -90 40 L-90 -60 Z" fill="#0b0c0e" stroke="url(#goldGrad)" stroke-width="4" filter="url(#glow)" />
+    <!-- Inner Shield -->
+    <path d="M0 -95 L78 -50 L78 35 C78 98 0 142 0 142 C0 142 -78 98 -78 35 L-78 -50 Z" fill="#17181b" stroke="#c9a24b" stroke-width="1.5" opacity="0.8" />
+    
+    <!-- Faceted W Logo in Center -->
+    <path d="M-45 -25 L-25 45 L0 0 L25 45 L45 -25 L25 -25 L12 20 L0 -15 L-12 20 L-25 -25 Z" fill="url(#goldGrad)" />
+    
+    <!-- Text WIN OS below W -->
+    <text x="0" y="90" text-anchor="middle" fill="#edebe6" class="display" font-size="22" letter-spacing="4">WIN OS</text>
+  </g>
+
+  <!-- Main Headline Block -->
+  <g transform="translate(540, 680)">
+    <text x="0" y="0" text-anchor="middle" fill="#edebe6" class="display" font-size="52" letter-spacing="-1">CONHEÇA A SUA NOVA</text>
+    <text x="0" y="70" text-anchor="middle" fill="#edebe6" class="display" font-size="52" letter-spacing="-1">EQUIPE OPERACIONAL</text>
+    <text x="0" y="140" text-anchor="middle" fill="url(#goldGrad)" class="display" font-size="52" letter-spacing="-1">COMPLETA.</text>
+  </g>
+
+  <!-- Subtitle Card -->
+  <g transform="translate(540, 930)">
+    <rect x="-380" y="-35" width="760" height="90" rx="16" fill="#121316" stroke="#232427" stroke-width="1.5" />
+    <text x="0" y="3" text-anchor="middle" fill="#9a958a" class="body" font-size="22">O organograma executivo inteligente que opera seu negócio</text>
+    <text x="0" y="33" text-anchor="middle" fill="#c9a24b" class="body" font-size="22" font-weight="600">com o nível de organização de uma multinacional.</text>
+  </g>
+
+  <!-- Slide Continuous Line Connector & Footer -->
+  <g transform="translate(540, 1220)">
+    <line x1="-400" y1="0" x2="400" y2="0" stroke="#232427" stroke-width="1" />
+    <text x="0" y="45" text-anchor="middle" fill="#9a958a" class="mono" font-size="14" letter-spacing="2">ARRASTA PRO LADO ▸</text>
+  </g>
+</svg>

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Win OS - Post Fixado 3: Como Funciona na Prática</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: #08090a;
+      color: #f3f4f6;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      padding: 40px 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 30px;
+      max-width: 800px;
+    }
+    h1 {
+      font-size: 28px;
+      color: #e6c875;
+      margin-bottom: 8px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+    p {
+      color: #9ca3af;
+      font-size: 15px;
+    }
+    .badge {
+      display: inline-block;
+      background: rgba(230, 200, 117, 0.15);
+      border: 1px solid rgba(230, 200, 117, 0.3);
+      color: #e6c875;
+      padding: 4px 12px;
+      border-radius: 20px;
+      font-size: 12px;
+      font-weight: 600;
+      margin-bottom: 12px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 25px;
+      max-width: 1200px;
+      width: 100%;
+    }
+    .slide-card {
+      background: #111317;
+      border: 1px solid #1f242d;
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+      transition: transform 0.2s, border-color 0.2s;
+    }
+    .slide-card:hover {
+      transform: translateY(-4px);
+      border-color: #d4af37;
+    }
+    .slide-img {
+      width: 100%;
+      height: auto;
+      display: block;
+      aspect-ratio: 3 / 4;
+      object-fit: cover;
+    }
+    .slide-info {
+      padding: 16px 20px;
+      background: #111317;
+    }
+    .slide-num {
+      font-size: 11px;
+      font-weight: 700;
+      color: #e6c875;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      margin-bottom: 4px;
+    }
+    .slide-title {
+      font-size: 16px;
+      font-weight: 600;
+      color: #ffffff;
+      margin-bottom: 6px;
+    }
+    .slide-desc {
+      font-size: 13px;
+      color: #8b949e;
+      line-height: 1.4;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="badge">WIN OS • POST FIXADO 3 • DEMONSTRAÇÃO & OFERTA</div>
+    <h1>Como Funciona na Prática (15 Segundos)</h1>
+    <p>O post que quebra todo o ceticismo do empresário: comandos reais, entregas imediatas e a chamada direta para o checkout de R$ 47.</p>
+  </header>
+
+  <div class="grid">
+    <div class="slide-card">
+      <img src="slide_1_capa.jpg" alt="Slide 1 - Capa" class="slide-img">
+      <div class="slide-info">
+        <div class="slide-num">Slide 01 • Capa Magnética</div>
+        <div class="slide-title">Como Funciona na Prática</div>
+        <div class="slide-desc">Você digita uma ordem. O Win OS entrega o trabalho pronto em 15 segundos. Terminal com cronômetro real.</div>
+      </div>
+    </div>
+
+    <div class="slide-card">
+      <img src="slide_2_caso1_comercial.jpg" alt="Slide 2 - Caso 1 Comercial" class="slide-img">
+      <div class="slide-info">
+        <div class="slide-num">Slide 02 • Caso Real 01</div>
+        <div class="slide-title">Proposta de R$ 15.000 em 12 Segundos</div>
+        <div class="slide-desc">Escopo detalhado, margem de 48% calculada e minuta de contrato pronta para envio no WhatsApp.</div>
+      </div>
+    </div>
+
+    <div class="slide-card">
+      <img src="slide_3_caso2_marketing.jpg" alt="Slide 3 - Caso 2 Marketing" class="slide-img">
+      <div class="slide-info">
+        <div class="slide-num">Slide 03 • Caso Real 02</div>
+        <div class="slide-title">Conteúdo e Tráfego do Mês Inteiro em 10s</div>
+        <div class="slide-desc">Calendário com 12 posts, roteiro de Reels viral com fórmula de retenção e estrutura de Meta Ads pronta.</div>
+      </div>
+    </div>
+
+    <div class="slide-card">
+      <img src="slide_4_caso3_financas_operacao.jpg" alt="Slide 4 - Caso 3 Finanças e Operação" class="slide-img">
+      <div class="slide-info">
+        <div class="slide-num">Slide 04 • Caso Real 03</div>
+        <div class="slide-title">DRE, Fluxo de Caixa e SOP em 5s</div>
+        <div class="slide-desc">Margem de lucro calculada com precisão e manual de processos para delegar tarefas à equipe sem apagar incêndios.</div>
+      </div>
+    </div>
+
+    <div class="slide-card">
+      <img src="slide_5_o_que_recebe.jpg" alt="Slide 5 - O Que Recebe" class="slide-img">
+      <div class="slide-info">
+        <div class="slide-num">Slide 05 • Entrega Imediata</div>
+        <div class="slide-title">O Que Chega no Seu E-mail em 60 Segundos</div>
+        <div class="slide-desc">Cartão VIP de acesso, 4 pastas departamentais com 60+ skills, guia de ativação de 5 minutos e suporte WhatsApp.</div>
+      </div>
+    </div>
+
+    <div class="slide-card">
+      <img src="slide_6_oferta_cta.jpg" alt="Slide 6 - Oferta e CTA" class="slide-img">
+      <div class="slide-info">
+        <div class="slide-num">Slide 06 • Conversão Final</div>
+        <div class="slide-title">Acesso Vitalício por R$ 47 (Pagamento Único)</div>
+        <div class="slide-desc">Preço de R$ 47 em ouro 3D, garantia de 7 dias e chamada direta: Comente 'PRATICA' ou acesse o link da bio.</div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

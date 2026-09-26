@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1350" width="1080" height="1350">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0c0e" />
+      <stop offset="50%" stop-color="#121316" />
+      <stop offset="100%" stop-color="#070809" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e8d596" />
+      <stop offset="35%" stop-color="#c9a24b" />
+      <stop offset="70%" stop-color="#f3e5ab" />
+      <stop offset="100%" stop-color="#8a6e33" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    .mono { font-family: 'SF Mono', Consolas, 'Roboto Mono', monospace; }
+    .display { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 800; }
+    .body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 400; }
+  </style>
+
+  <rect width="1080" height="1350" fill="url(#bgGrad)" />
+  <rect x="40" y="40" width="1000" height="1270" rx="24" fill="none" stroke="#232427" stroke-width="1.5" />
+  <rect x="52" y="52" width="976" height="1246" rx="20" fill="none" stroke="#c9a24b" stroke-width="1" opacity="0.25" />
+
+  <!-- Header Pill -->
+  <g transform="translate(540, 110)">
+    <rect x="-160" y="-20" width="320" height="40" rx="20" fill="#17181b" stroke="#232427" stroke-width="1.5" />
+    <text x="0" y="6" text-anchor="middle" fill="#c9a24b" class="mono" font-size="14" letter-spacing="3">/ 04. GESTAO &amp; CONTROLE</text>
+  </g>
+
+  <!-- Title -->
+  <g transform="translate(540, 220)">
+    <text x="0" y="0" text-anchor="middle" fill="#edebe6" class="display" font-size="44" letter-spacing="-0.5">FINANÇAS &amp; GOVERNANÇA</text>
+    <text x="0" y="55" text-anchor="middle" fill="url(#goldGrad)" class="display" font-size="44" letter-spacing="-0.5">A BASE DA SUA EMPRESA</text>
+  </g>
+
+  <!-- Two Large Columns / Cards -->
+  <g transform="translate(540, 360)">
+    <!-- Column 1: Gerente Financeiro -->
+    <g transform="translate(-230, 0)">
+      <rect x="-200" y="0" width="400" height="660" rx="20" fill="#121316" stroke="#232427" stroke-width="1.5" />
+      <rect x="-200" y="0" width="400" height="90" rx="20" fill="#17181b" stroke="#232427" stroke-width="1" />
+      <text x="0" y="42" text-anchor="middle" fill="#c9a24b" class="display" font-size="22">GERENTE FINANCEIRO</text>
+      <text x="0" y="68" text-anchor="middle" fill="#9a958a" class="mono" font-size="12" letter-spacing="1">5 SKILLS CRÍTICAS</text>
+
+      <g transform="translate(-160, 140)">
+        <text x="0" y="0" fill="#edebe6" class="display" font-size="17">01. Fluxo de Caixa</text>
+        <text x="0" y="24" fill="#9a958a" class="body" font-size="14">Projeção diária e alertas de liquidez.</text>
+
+        <text x="0" y="90" fill="#edebe6" class="display" font-size="17">02. Precificação</text>
+        <text x="0" y="114" fill="#9a958a" class="body" font-size="14">Cálculo de margem, markup e ponto de equilíbrio.</text>
+
+        <text x="0" y="180" fill="#edebe6" class="display" font-size="17">03. Rotinas de Cobrança</text>
+        <text x="0" y="204" fill="#9a958a" class="body" font-size="14">Régua de lembretes e combate à inadimplência.</text>
+
+        <text x="0" y="270" fill="#edebe6" class="display" font-size="17">04. Relatórios Executivos</text>
+        <text x="0" y="294" fill="#9a958a" class="body" font-size="14">DRE gerencial simplificado para o CEO.</text>
+      </g>
+    </g>
+
+    <!-- Column 2: Gerente de Administração -->
+    <g transform="translate(230, 0)">
+      <rect x="-200" y="0" width="400" height="660" rx="20" fill="#121316" stroke="#232427" stroke-width="1.5" />
+      <rect x="-200" y="0" width="400" height="90" rx="20" fill="#17181b" stroke="#232427" stroke-width="1" />
+      <text x="0" y="42" text-anchor="middle" fill="#c9a24b" class="display" font-size="22">GERENTE DE ADMINISTRAÇÃO</text>
+      <text x="0" y="68" text-anchor="middle" fill="#9a958a" class="mono" font-size="12" letter-spacing="1">5 SKILLS DE ROTINA</text>
+
+      <g transform="translate(-160, 140)">
+        <text x="0" y="0" fill="#edebe6" class="display" font-size="17">01. Padronização de Processos</text>
+        <text x="0" y="24" fill="#9a958a" class="body" font-size="14">Checklists e manuais de operação (SOPs).</text>
+
+        <text x="0" y="90" fill="#edebe6" class="display" font-size="17">02. Documentos Oficiais</text>
+        <text x="0" y="114" fill="#9a958a" class="body" font-size="14">Contratos, termos de serviço e atas.</text>
+
+        <text x="0" y="180" fill="#edebe6" class="display" font-size="17">03. Comunicação Interna</text>
+        <text x="0" y="204" fill="#9a958a" class="body" font-size="14">Alinhamento de equipe e comunicados.</text>
+
+        <text x="0" y="270" fill="#edebe6" class="display" font-size="17">04. Logística &amp; Eventos</text>
+        <text x="0" y="294" fill="#9a958a" class="body" font-size="14">Organização de reuniões e entregas.</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Bottom Insight -->
+  <g transform="translate(540, 1090)">
+    <text x="0" y="0" text-anchor="middle" fill="#edebe6" class="display" font-size="20">Sua empresa deixa de depender de "apagar incêndios"</text>
+    <text x="0" y="28" text-anchor="middle" fill="#c9a24b" class="body" font-size="18">e passa a rodar com previsibilidade diária.</text>
+  </g>
+
+  <!-- Footer -->
+  <g transform="translate(540, 1220)">
+    <line x1="-400" y1="0" x2="400" y2="0" stroke="#232427" stroke-width="1" />
+    <text x="0" y="45" text-anchor="middle" fill="#9a958a" class="mono" font-size="14" letter-spacing="2">COMO ATIVAR ESSA EQUIPE ▸</text>
+  </g>
+</svg>
