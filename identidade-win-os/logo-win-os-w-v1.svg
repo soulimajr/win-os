@@ -1,0 +1,49 @@
+﻿<svg width="600" height="600" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="winGrad" x1="80" y1="120" x2="520" y2="465" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFD54F"/>
+      <stop offset="42%" stop-color="#FF7A00"/>
+      <stop offset="100%" stop-color="#B22222"/>
+    </linearGradient>
+    <linearGradient id="edgeGrad" x1="130" y1="145" x2="470" y2="450" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFF2A8" stop-opacity="0.95"/>
+      <stop offset="48%" stop-color="#FFB347" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#7A0D0D" stop-opacity="0.15"/>
+    </linearGradient>
+    <filter id="softGlow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="1 0 0 0 1  0 0.42 0 0 0.22  0 0 0.12 0 0  0 0 0 0.75 0" result="warmGlow"/>
+      <feMerge>
+        <feMergeNode in="warmGlow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="18" stdDeviation="14" flood-color="#000000" flood-opacity="0.55"/>
+    </filter>
+  </defs>
+
+  <rect width="600" height="600" fill="#0A0A0A"/>
+  <circle cx="300" cy="284" r="205" fill="#111111" opacity="0.62"/>
+  <path d="M115 126C184 68 293 53 385 88C458 116 505 174 524 242" fill="none" stroke="#FF7A00" stroke-width="5" opacity="0.16"/>
+  <path d="M76 407C148 493 278 530 400 479C463 453 510 405 537 339" fill="none" stroke="#B22222" stroke-width="5" opacity="0.18"/>
+
+  <!-- W monogram: stronger folded-ribbon construction -->
+  <g filter="url(#shadow)">
+    <path d="M82 145H157L220 360L273 183C278 165 289 145 306 145H331L390 360L449 145H520L419 453H348L303 294L256 453H183L82 145Z"
+          fill="url(#winGrad)"/>
+    <path d="M158 145L221 360L273 183C278 165 289 145 306 145H331L304 239L256 453H183L82 145H158Z"
+          fill="#FFD54F" opacity="0.12"/>
+    <path d="M330 145L390 360L449 145H520L419 453H348L303 294L330 145Z"
+          fill="#7E1111" opacity="0.16"/>
+    <path d="M82 145H157L220 360L273 183C278 165 289 145 306 145H331L390 360L449 145H520"
+          fill="none" stroke="url(#edgeGrad)" stroke-width="10" stroke-linejoin="round" opacity="0.72"/>
+  </g>
+
+  <g filter="url(#softGlow)">
+    <rect x="150" y="478" width="300" height="4" rx="2" fill="url(#winGrad)"/>
+  </g>
+
+  <text x="300" y="525" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="900" font-size="46" letter-spacing="4" fill="#FFFFFF">WIN-OS</text>
+</svg>
+

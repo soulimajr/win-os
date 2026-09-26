@@ -1,0 +1,28 @@
+﻿<svg width="600" height="600" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="winGrad" x1="86" y1="142" x2="514" y2="444" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFD54F"/>
+      <stop offset="44%" stop-color="#FF7A00"/>
+      <stop offset="100%" stop-color="#B22222"/>
+    </linearGradient>
+    <filter id="glow" x="-45%" y="-45%" width="190%" height="190%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="600" height="600" fill="#0A0A0A"/>
+  <path d="M96 292C96 186 183 100 300 100C417 100 504 186 504 292C504 397 417 462 300 462C183 462 96 397 96 292Z"
+        fill="#111111" stroke="#2A2A2A" stroke-width="4"/>
+  <path d="M141 155H210L247 346L283 201C288 181 300 168 318 168H349L387 346L424 155H493L422 424H348L310 271L270 424H197L141 155Z"
+        fill="url(#winGrad)" filter="url(#glow)"/>
+  <path d="M141 155H210L247 346L283 201C288 181 300 168 318 168H349"
+        fill="none" stroke="#FFF2A8" stroke-width="8" stroke-linejoin="round" opacity="0.42"/>
+  <path d="M310 271L270 424H197L141 155H210L247 346"
+        fill="none" stroke="#FFD54F" stroke-width="5" stroke-linejoin="round" opacity="0.22"/>
+  <rect x="150" y="478" width="300" height="4" rx="2" fill="url(#winGrad)"/>
+  <text x="300" y="525" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="900" font-size="46" letter-spacing="4" fill="#FFFFFF">WIN-OS</text>
+</svg>
+

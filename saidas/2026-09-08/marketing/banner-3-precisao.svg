@@ -1,0 +1,32 @@
+<svg viewBox="0 0 1080 1920" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFD54F"/>
+      <stop offset="50%" stop-color="#FF7A00"/>
+      <stop offset="100%" stop-color="#B22222"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1920" fill="#000000"/>
+
+  <text x="540" y="680" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="900" font-size="58" fill="#FFFFFF">
+    <tspan x="540" dy="0">TRÁFEGO PAGO NÃO É</tspan>
+    <tspan x="540" dy="76">SORTE. É MOSTRAR SUA</tspan>
+    <tspan x="540" dy="76">EMPRESA PRA QUEM JÁ</tspan>
+    <tspan x="540" dy="76">ESTÁ PROCURANDO COMPRAR.</tspan>
+  </text>
+
+  <rect x="390" y="1010" width="300" height="6" rx="3" fill="url(#g1)"/>
+
+  <text x="540" y="1090" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="34" fill="#CCCCCC">
+    <tspan x="540" dy="0">Segmentação certa = gastar</tspan>
+    <tspan x="540" dy="48">menos pra alcançar quem</tspan>
+    <tspan x="540" dy="48">realmente pode virar cliente.</tspan>
+  </text>
+
+  <text x="540" y="1660" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="800" font-size="42" fill="url(#g1)">
+    <tspan x="540" dy="0">ENTENDA COMO</tspan>
+    <tspan x="540" dy="52">FUNCIONA</tspan>
+  </text>
+
+  <path d="M 570 1800 A 40 40 0 1 0 570 1860" fill="none" stroke="url(#g1)" stroke-width="14" stroke-linecap="round"/>
+</svg>

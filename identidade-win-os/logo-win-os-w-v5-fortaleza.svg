@@ -1,0 +1,48 @@
+<svg width="600" height="600" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="fireMetal" x1="104" y1="128" x2="500" y2="430" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFE680"/>
+      <stop offset="36%" stop-color="#FF9D00"/>
+      <stop offset="72%" stop-color="#D93612"/>
+      <stop offset="100%" stop-color="#6F0707"/>
+    </linearGradient>
+    <linearGradient id="darkPlate" x1="96" y1="80" x2="504" y2="528" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#202020"/>
+      <stop offset="55%" stop-color="#090909"/>
+      <stop offset="100%" stop-color="#1A0505"/>
+    </linearGradient>
+    <filter id="warGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="shadow" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="18" stdDeviation="14" flood-color="#000000" flood-opacity="0.72"/>
+    </filter>
+  </defs>
+  <rect width="600" height="600" fill="#070707"/>
+  <path d="M300 64L515 154L492 421L300 536L108 421L85 154L300 64Z"
+        fill="url(#darkPlate)" stroke="#3D3D3D" stroke-width="5"/>
+  <path d="M300 89L484 166L464 404L300 502L136 404L116 166L300 89Z"
+        fill="#0B0B0B" stroke="#A52B16" stroke-width="5"/>
+  <path d="M118 166H482M136 404H464" stroke="#FFD54F" stroke-width="4" opacity="0.22"/>
+  <path d="M300 89V502" stroke="#FFFFFF" stroke-width="2" opacity="0.06"/>
+
+  <!-- Heavier fortress-style W, sharper and more monumental -->
+  <g filter="url(#shadow)">
+    <path d="M99 164H174L219 351L258 205C264 182 279 164 301 164H337L324 228L368 164H425L414 228L459 164H532L430 430H352L302 296L252 430H176L99 164Z"
+          fill="url(#fireMetal)"/>
+    <path d="M174 164L219 351L258 205C264 182 279 164 301 164H337L302 296L252 430H176L99 164H174Z"
+          fill="#FFD54F" opacity="0.11"/>
+    <path d="M368 164H425L414 228L459 164H532L430 430H352L302 296L368 164Z"
+          fill="#530707" opacity="0.22"/>
+    <path d="M99 164H174L219 351L258 205C264 182 279 164 301 164H337L324 228L368 164H425L414 228L459 164H532"
+          fill="none" stroke="#FFF1A5" stroke-width="6" stroke-linejoin="miter" opacity="0.50"/>
+    <path d="M188 430H252L302 296L352 430H430" fill="none" stroke="#6F0707" stroke-width="8" stroke-linejoin="miter" opacity="0.30"/>
+  </g>
+
+  <path d="M144 459H456" stroke="url(#fireMetal)" stroke-width="5" stroke-linecap="round" filter="url(#warGlow)"/>
+  <text x="300" y="520" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="900" font-size="48" letter-spacing="4" fill="#FFFFFF">WIN-OS</text>
+</svg>

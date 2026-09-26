@@ -1,0 +1,28 @@
+services:
+  win-os-landing:
+    build: .
+    container_name: win-os-landing
+    restart: unless-stopped
+    mem_limit: 64m
+    memswap_limit: 64m
+    networks:
+      - network_public
+    labels:
+      - "traefik.enable=true"
+      - "traefik.docker.network=network_public"
+
+      - "traefik.http.routers.win-os-landing.rule=Host(`app.creativeagenciamkt.com.br`)"
+      - "traefik.http.routers.win-os-landing.entrypoints=websecure"
+      - "traefik.http.routers.win-os-landing.tls=true"
+      - "traefik.http.routers.win-os-landing.tls.certresolver=le"
+      - "traefik.http.routers.win-os-landing.tls.domains[0].main=app.creativeagenciamkt.com.br"
+
+      - "traefik.http.routers.win-os-landing-http.rule=Host(`app.creativeagenciamkt.com.br`)"
+      - "traefik.http.routers.win-os-landing-http.entrypoints=web"
+      - "traefik.http.routers.win-os-landing-http.middlewares=redirect-to-https@docker"
+
+      - "traefik.http.services.win-os-landing.loadbalancer.server.port=80"
+
+networks:
+  network_public:
+    external: true
